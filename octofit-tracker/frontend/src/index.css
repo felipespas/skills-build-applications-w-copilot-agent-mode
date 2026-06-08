@@ -1,0 +1,46 @@
+:root {
+  font: 16px/1.5 Georgia, 'Times New Roman', serif;
+  color: #33443e;
+  background: #f3f7f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2 {
+  color: #1c3029;
+}
+
+h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  letter-spacing: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  color: #1c3029;
+  background: #eaf2ed;
+  border-radius: 6px;
+  font-size: 13px;
+  padding: 4px 8px;
+}
