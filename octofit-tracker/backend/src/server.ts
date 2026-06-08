@@ -10,6 +10,7 @@ import {
 
 const app = express()
 const PORT = 8000
+// Supports GitHub Codespaces and local development.
 const codespaceName = process.env.CODESPACE_NAME
 const apiBaseUrl = codespaceName
   ? `https://${codespaceName}-8000.app.github.dev`
