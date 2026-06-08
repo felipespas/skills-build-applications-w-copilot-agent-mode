@@ -1,0 +1,6 @@
+
+> dev
+> tsx watch src/index.ts
+
+MongoDB connected: mongodb://127.0.0.1:27017/octofit_db
+Server running on port 8000
